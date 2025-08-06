@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    height: 100vh;
+    margin-top: 10%;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+}
+.todo ul li{
+    list-style: none;
+    color: rgb(159, 0, 180);
+    font-size: 17px;
+    margin-top: 20px;
+}
+.todo_item{
+    list-style: none;
+    color: rgb(159, 0, 180);
+    font-size: 17px;
+    margin-top: 20px;
+}
+.con1{
+    width: 50%;
+    margin: 30px;
+}
+input{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: rgb(177, 5, 177);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(65, 255, 255);
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+
